@@ -1,0 +1,31 @@
+<html>
+     <head>
+
+          
+     </head>
+     <body> 
+         <h1> Welcome to lab 2. </h1>
+         <p>  This is the index page for lad 2.</p>
+
+
+         <input id = "A"> + <input id = "B"></br>
+         <div id = "result"></div> </br>
+         <button onclick="add()">Add</button>
+
+     </body>
+
+ <script type="text/javascript">
+            let A = document.getElementById("A").value;
+            let B = document.getElementById("B").value;
+
+
+        function add() {
+            let a = parseFloat (A);
+            let b = parseFloat (B);
+            let result = a + b ;
+            document.getElementById("result").innerHTML = result;
+        }
+
+           </script>
+
+</html>
